@@ -11,8 +11,9 @@
 5. Rode o projeto<br />
   - node server.js<br />
 obs: certifique se de ter o node js instalado no computador, caso não tenha, faça download pelo link abaixo.<br />
-   https://nodejs.org/dist/v20.17.0/node-v20.17.0-x64.msi
+   https://nodejs.org/dist/v20.17.0/node-v20.17.0-x64.msi<br /><br /><br />
 
+# Abra o navegador e cole os endereços abaixo para acessar o sistema<br /><br />
 ## Acesso a página de pesquisa<br />
 http://localhost:3000/survey.html<br /><br />
 ## Acesso ao dashboard<br />
