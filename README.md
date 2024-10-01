@@ -3,7 +3,7 @@
 ## Instalação
 
 1. Clone o repositório:<br />
-  - git clone https://github.com/marcosgsbarros/sistema-NPS.git
+  - git clone https://github.com/marcosgbarros/sistema-NPS.git
 2. Navegue até o diretório do projeto:<br />
   - cd NPS
 4. Instale as dependências<br />
