@@ -9,7 +9,7 @@
 4. Instale as dependências<br />
   - npm install
 5. Rode o projeto<br />
-  - node server.js<br />
+  - node server.js<br /><br />
 obs: certifique se de ter o node js instalado no computador, caso não tenha, faça download pelo link abaixo.<br />
    https://nodejs.org/dist/v20.17.0/node-v20.17.0-x64.msi<br /><br /><br />
 
