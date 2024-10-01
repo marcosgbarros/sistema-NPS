@@ -12,6 +12,14 @@
   - node server.js<br />
 obs: certifique se de ter o node js instalado no computador, caso não tenha, faça download pelo link abaixo.<br />
    https://nodejs.org/dist/v20.17.0/node-v20.17.0-x64.msi
+
+## Acesso a página de pesquisa<br />
+http://localhost:3000/survey.html<br /><br />
+## Acesso ao dashboard<br />
+http://localhost:3000/dashboard.html<br /><br />
+## Acesso aos feedbacks<br />
+http://localhost:3000/feedback.html<br /><br />
+
 ## Imagens do projeto<br />
 ![Screenshot](images/survey.png)<br />
 ![Screenshot](images/dashboard.png)<br />
