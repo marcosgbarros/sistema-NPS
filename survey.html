@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Satisfação - NPS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/survey-styles.css"> <!-- Link para o CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Pesquisa de Satisfação</h1>
+        <form id="npsForm">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Telefone</label>
+                <input type="tel" class="form-control" id="phone" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Em uma escala de 0 a 10, o quanto você recomendaria nosso produto/serviço?</label>
+                <div class="nps-buttons">
+                    <button type="button" class="nps-button" data-value="0" style="background-color: #ff4136;">0</button>
+                    <button type="button" class="nps-button" data-value="1" style="background-color: #ff4136;">1</button>
+                    <button type="button" class="nps-button" data-value="2" style="background-color: #ff4136;">2</button>
+                    <button type="button" class="nps-button" data-value="3" style="background-color: #ff4136;">3</button>
+                    <button type="button" class="nps-button" data-value="4" style="background-color: #ff4136;">4</button>
+                    <button type="button" class="nps-button" data-value="5" style="background-color: #ff4136;">5</button>
+                    <button type="button" class="nps-button" data-value="6" style="background-color: #ff4136;">6</button>
+                    <button type="button" class="nps-button" data-value="7" style="background-color: #ffcc00;">7</button>
+                    <button type="button" class="nps-button" data-value="8" style="background-color: #ffcc00;">8</button>
+                    <button type="button" class="nps-button" data-value="9" style="background-color: #41ff3a;">9</button>
+                    <button type="button" class="nps-button" data-value="10" style="background-color: #41ff3a;">10</button>
+                </div>                
+            </div>
+            <div class="mb-3">
+                <label for="feedback" class="form-label">Justifique sua nota</label>
+                <textarea class="form-control" id="feedback" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Enviar</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="scripts/survey-script.js"></script> <!-- Link para o JavaScript -->
+</body>
+</html>
