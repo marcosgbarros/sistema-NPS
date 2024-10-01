@@ -14,5 +14,5 @@ obs: certifique se de ter o node js instalado no computador, caso não tenha, fa
    https://nodejs.org/dist/v20.17.0/node-v20.17.0-x64.msi
 ## Imagens do projeto<br />
 ![Screenshot](images/survey.png)<br />
-![Screenshot](imagens/dashboard.png)<br />
-![Screenshot](imagens/feedbacks.png)
+![Screenshot](images/dashboard.png)<br />
+![Screenshot](images/feedbacks.png)
