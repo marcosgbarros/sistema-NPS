@@ -172,17 +172,17 @@ const scoreEvolutionChart = new Chart(scoreEvolutionCtx, {
 // Função para buscar dados do período anterior até o final do período selecionado
 function updateDashboard(start, end) {
     const today = moment(); 
-    const finalEndDate = end.isBefore(today, 'day') ? end : today; 
+    const finalEndDate = end;
 
-    let previousStart = start.clone(); // Ajuste o início do período
+    let previousStart = start; // Ajuste o início do período
     
     // Ajuste para garantir que, se o período for "Ontem", não pegue o dia anterior
     if (start.isSame(moment().subtract(1, 'days'), 'day')) {
-        previousStart = start.clone(); // Usar apenas o dia selecionado
+        previousStart = start; // Usar apenas o dia selecionado
     } else if (start.isSame(today, 'day')) {
-        previousStart = start.clone(); // Usar o próprio dia selecionado sem incluir o anterior
+        previousStart = start; // Usar o próprio dia selecionado sem incluir o anterior
     } else {
-        previousStart = start.clone().subtract(1, 'days'); // Período anterior se não for o dia atual
+        previousStart = start; // Período anterior se não for o dia atual
     }
 
     $.ajax({
